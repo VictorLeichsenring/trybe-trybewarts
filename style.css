@@ -1,35 +1,34 @@
-.header{
+.header {
   border: black 1px solid;
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.trybewarts-header-logo{
+.trybewarts-header-logo {
   display: flex;
   border: black 1px solid;
 }
 
-.trybewarts-login{
+.trybewarts-login {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content:flex-end;
+  flex-flow: column wrap;
+  justify-content: flex-end;
   align-items: end;
   border: black 1px solid;
   max-width: 250px;
   margin-right: 20px;
 }
 
-#trybewarts-header-title{
+#trybewarts-header-title {
   display: flex;
   margin-top: 25%;
-  font-family: fonteHogwarts;
+  font-family: fonteHogwarts, sans-serif;
   font-size: 100px;
   color: aliceblue;
 }
 
 @font-face {
-  font-family:fonteHogwarts;
-  src: url(MagicSchoolOne.ttf);
- }
+  font-family: fonteHogwarts;
+  src: url('MagicSchoolOne.ttf');
+}
