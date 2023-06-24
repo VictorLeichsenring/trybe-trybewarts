@@ -4,9 +4,16 @@
     background-color: rgb(50, 167, 145);
 }
 .trybewarts-header-logo{
+    display: flex;
     border: black 1px solid;
 
 }
 .trybewarts-login{
-
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    align-items: end;
+    border: black 1px solid;
+    min-width:87%;
 }
+
