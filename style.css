@@ -32,3 +32,12 @@
   font-family: fonteHogwarts;
   src: url('MagicSchoolOne.ttf');
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
