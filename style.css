@@ -41,4 +41,11 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  order: 1;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  order: 2;
+  align-self: center;
 }
