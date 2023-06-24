@@ -7,7 +7,6 @@
 .trybewarts-header-logo{
     display: flex;
     border: black 1px solid;
-
 }
 .trybewarts-login{
     display: flex;
@@ -21,8 +20,14 @@
 }
 #trybewarts-header-title{
     display: flex;
-    margin-top: 50%;    
-
-    
+    margin-top: 25%;
+    font-family: fonteHogwarts;
+    font-size: 100px;
+    color: aliceblue;
 }
+@font-face {
+    font-family:fonteHogwarts;
+    src: url(MagicSchoolOne.ttf);
+  }
+
 
