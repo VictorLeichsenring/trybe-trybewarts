@@ -1,6 +1,8 @@
 const btnEnviarHeader = document.getElementById('btn-enviar-header');
 const inputEmailHeader = document.getElementById('input-email-header');
 const inputSenhaHeader = document.getElementById('input-password-header');
+const comentario = document.getElementById('textarea');
+const counter = document.getElementById('counter');
 const checkboxAgreement = document.getElementById('agreement');
 const btnSubmitForm = document.getElementById('submit-btn');
 
@@ -20,5 +22,13 @@ function agreementChange() {
   }
 }
 
+function changeCounter() {
+  const texto = comentario.value;
+  const valor = texto.length;
+  const caracteresFinais = 500 - valor;
+  counter.innerText = caracteresFinais;
+}
+
 btnEnviarHeader.addEventListener('click', login);
 checkboxAgreement.addEventListener('change', agreementChange);
+comentario.addEventListener('input', changeCounter);
